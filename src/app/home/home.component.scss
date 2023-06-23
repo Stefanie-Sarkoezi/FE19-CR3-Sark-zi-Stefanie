@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/vyd2wkn.css");
+@import url("https://use.typekit.net/vyd2wkn.css");
+
+
+.home {
+    background-image: url(../../assets/Images/Hero.jpeg);
+    object-fit:cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+    .name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    }
+
+    button {
+        background-color:  rgb(51, 6, 6);
+        color: white;
+        border-radius: 10px;
+        margin: 0px 10px;
+        border-color: black;
+        padding: 1% 2%;
+        font-family: "eixample-dip", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        
+        
+        
+    }
+    .heading {
+        color: white;
+        font-family: "lindsey-signature", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 600%;
+    }
+    .description {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-family: "eixample-dip", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 200%;
+        padding-bottom: 5%;
+
+    }
+    
+    
+}
