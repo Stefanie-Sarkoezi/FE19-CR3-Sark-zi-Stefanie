@@ -4,4 +4,5 @@ export interface IProducts {
     productDescription: string;
     prize: number;
     availability: boolean;
+    detailedDescription: string;
 }

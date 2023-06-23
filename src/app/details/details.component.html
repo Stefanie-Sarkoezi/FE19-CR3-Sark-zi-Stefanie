@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <img src={{product.image}} >
+        <div>
+            <h4>{{product.productName}}</h4>
+            <p>{{product.productDescription}}</p>
+            <h6>Allergene:</h6>
+            <div *ngFor="let line of product.detailedDescription.split('\n')">
+                {{ line }} <br>
+            </div>
+            <a routerLink="/cart" class="btn btn-primary">Order</a>
+        </div>
+    </div>
+</div>

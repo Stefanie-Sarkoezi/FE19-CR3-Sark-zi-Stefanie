@@ -1,21 +1,25 @@
 @import url("https://use.typekit.net/vyd2wkn.css");
 
-.myFlex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-    gap: 5%;
+.container {
+    width: 100vw;
+
+    .row {
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        gap: 5%;
+        margin: 1% 0%;
+        height: 65vh;
+
+            img { 
+                width: 40vw; 
+            }
     
-
-    img {
-        height: 55vh;
+        h4 {
+            font-family: "eixample-dip", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 200%
+        };
     }
-
-    div h4 {
-        font-family: "eixample-dip", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 200%
-    };
 }
