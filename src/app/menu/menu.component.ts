@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IProducts } from '../Iproducts';
+import { products } from '../products';
 
 @Component({
   selector: 'menu',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent {
+  products: Array<IProducts> = products;
 
 }

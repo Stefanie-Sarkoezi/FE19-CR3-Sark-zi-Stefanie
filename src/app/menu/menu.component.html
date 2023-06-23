@@ -1,4 +1,14 @@
-<div class ="container mt-2">
-    <div class =" row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3"> 
+<div class =" row row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"> 
+    <div *ngFor="let product of products">
+        <div class="card" style="width: 18rem;">
+            <img src="{{product.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{product.productName}}</h5>
+              <p class="card-text">{{product.productDescription}}</p>
+              <a routerLink="/details" class="btn btn-primary">Details</a>
+              <a routerLink="/cart" class="btn btn-primary">Order</a>
+            </div>
+          </div>
     </div>
 </div>
+
