@@ -12,7 +12,7 @@ export const products = [
     productName:"Pizza Capricciosa",
     productDescription: "Schinken, Champignons, schwarze Oliven, Artischocken, Tomatensauce, Mozzarella",
     prize: 12.60,
-    availability: true,
+    availability: false,
     detailedDescription: `A - Glutenhaltiges Getreide und -erzeugnisse \n C - Ei- und erzeugnisse \n G - Milch oder Laktose und -erzeugnisse \n L - Sellerie und erzeugnisse`
 
 },{
@@ -44,7 +44,7 @@ export const products = [
     productName:"Pasta alla Bolognese",
     productDescription: "Spaghetti mit würziger Tomaten-Rindfleischsauce",
     prize: 12.50,
-    availability: true,
+    availability: false,
     detailedDescription: `A - Glutenhaltiges Getreide und -erzeugnisse \n C - Ei- und erzeugnisse \n G - Milch oder Laktose und -erzeugnisse \n L - Sellerie und erzeugnisse`
 
 },{
