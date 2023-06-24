@@ -1,0 +1,50 @@
+h3 {
+    text-align: center;
+    margin-top: 2%;
+}
+.container{
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px;
+
+.summary {
+    margin-top: 3%;
+    justify-content: center;
+
+    .row {
+        
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+.hr {
+    border-top: 2px solid black;
+    height: 0.5vh;
+  }
+
+  .container{
+    border: none;
+  }
+.total {
+    text-align: center;
+
+    
+
+    .row {
+        border: 1px;
+        width: 100%;
+        margin: 0px;
+
+        .double-hr {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 0.5vh;
+        }
+    }
+}
+}
+.myForm{
+    padding: 10px;
+}

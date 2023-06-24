@@ -8,7 +8,7 @@
             <div *ngFor="let line of product.detailedDescription.split('\n')">
                 {{ line }} <br>
             </div>
-            <a routerLink="/cart" class="btn btn-primary">Add to cart</a>
+            <a (click)="addToCart()" class="btn btn-primary">Add to cart</a>
         </div>
     </div>
 </div>

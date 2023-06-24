@@ -1,1 +1,46 @@
-<p>cart works!</p>
+<h3>Your order</h3>
+<div class="container mb-5">
+    <div>
+        <div *ngFor="let item of cart" class="conatiner summary">
+            <div class="row row-cols-2">
+                <div class="col col-2">{{item.productName}}</div>
+                <div class="col col-1">{{item.prize}}€</div>
+                <!-- <div role="button">Delete</div> -->
+            </div>
+            <hr>
+        </div>
+        
+    </div>
+    <div class="hr"></div>
+    <div class="container total">
+        <div class="row row-cols-2">
+            <div>Subtotal:</div>
+            <div>€{{subtotal | number:'1.2-2'}}</div>
+            <div>VAT:</div>
+            <div>€{{vat | number:'1.2-2'}}</div>
+            <div>Discount:</div>
+            <div>€{{discount | number:'1.2-2'}}</div>
+            <div class="double-hr"></div>
+            <div class="double-hr"></div>
+            <div>Total:</div>
+            <div>€{{total | number:'1.2-2'}}</div>
+        </div>
+    </div>
+</div>
+<div class="container myForm mb-5">
+    <h3>Order Forms</h3>
+    <p>please fill up the info for the delivery</p>
+    <hr>
+    <form [formGroup]="orderForm" (ngSubmit)="OnSubmit()">
+        Name
+        <br>
+        <input type="text" formControlName="name">
+        <br>
+        Address
+        <br>
+        <input type="text" formControlName="address">
+        <br>
+        <input type="submit" class="btn btn-primary mt-3" value="submit">
+    </form>
+
+</div>

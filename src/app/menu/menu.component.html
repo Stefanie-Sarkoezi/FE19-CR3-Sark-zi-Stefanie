@@ -9,7 +9,7 @@
                 <p class="card-text">{{product.productDescription}}</p>
                 <ng-template [ngIf]="product.availability == true" [ngIfElse]="notAvailable"> 
                     <a routerLink="/product/{{i}}" class="btn btn-primary">Details</a>
-                    <a routerLink="/cart" class="btn btn-primary">Add to cart</a>
+                    <a (click)="addToCart(product)" class="btn btn-primary">Add to cart</a>
                 </ng-template>
                 <ng-template #notAvailable>
                     <p><b>Sorry, not available at the moment!</b></p>
