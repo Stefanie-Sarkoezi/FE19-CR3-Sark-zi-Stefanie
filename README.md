@@ -36,7 +36,7 @@ In order to accomplish this project, you will need to create at least 7 pages/co
 
 The Menu component will hold the dynamic content and should present at least 6 dishes with their image, small description and price.  
 
-For this CodeReview, the following criteria will be graded: 
+## For this CodeReview, the following criteria will be graded: 
 
 -Create a GitHub Repository named: FE19-CR3-Name. 
 
